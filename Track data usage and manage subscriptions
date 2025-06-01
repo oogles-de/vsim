@@ -1,0 +1,2 @@
+curl -X Get https://api.esim.me/usage \
+     -H "Authorization: Bearer $ESIM_TOKEN"
