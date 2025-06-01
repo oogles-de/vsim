@@ -1,0 +1,7 @@
+curl -X PATCH https://api.esim.me/profiles/mybusiness \
+     -H "Authorization: Bearer $ESIM_TOKEN" \
+     -H "Content-Type: application/json" \
+     -d '{
+          "data_plan": "5GB",
+          "roaming_enabled": true
+          }'
