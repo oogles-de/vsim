@@ -1,0 +1,8 @@
+curl -X POST https://api.esim.me/profiles \
+     -H "Authorization: Bearer $ESIM_TOKEN" \
+     -H "Content-Type: application/json" \
+     -d '{
+          "profiles_name": "MyBusiness",
+          "device_id" "your-device-id",
+          "services": ["voice", "data", "sms"]
+          }'
